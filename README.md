@@ -59,10 +59,10 @@ model = Model(inputs=vgg.input, outputs=prediction)e</code>
 In this it cut the face and save it in same file  
 
 It do the same with whole data set
-<img src="exampleimg/fullimage.jpg" >
+<img src="https://raw.githubusercontent.com/RajMaster1612/face-recognition-program-use-transfer-learning/master/exampleimage/fullimage.jpg" >
 
 
-<img src="exampleimg/cutimage.jpg" >
+<img src="https://raw.githubusercontent.com/RajMaster1612/face-recognition-program-use-transfer-learning/master/exampleimage/cutimage.jpg" >
 
 this type of image will use in dataset 
 
