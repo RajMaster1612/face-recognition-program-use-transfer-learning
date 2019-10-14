@@ -80,10 +80,16 @@ and i get this much accuracy and loss for 5 class
 
 # accuracy
 
-<img src="exampleimg/accimage.png" >
+<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/accimage.PNG" >
 
 # loss
 
-<img src="exampleimg/lossimage.png" >
+<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/lossimage.PNG" >
 
+# result
+<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/result.jpg" >
+
+# live
+<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/live.PNG" >
+<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/live_data.PNG" >
 
