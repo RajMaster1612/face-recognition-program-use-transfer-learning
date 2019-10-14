@@ -38,7 +38,7 @@ model = Model(inputs=vgg.input, outputs=prediction)e</code>
   <code>model.save('facefeatures_new_model.h5')</code>
   
   
- #face_detect_img.py
+# face_detect_img.py
   
   Basically it's used the model and give prediction to us by just passing image
   
@@ -49,13 +49,13 @@ model = Model(inputs=vgg.input, outputs=prediction)e</code>
  In prediction it give list of every class how much similer are in ther 
  
  
-#face_detect_live_cam.py
+# face_detect_live_cam.py
  
  it do same process as face_detect_img.py it but it get image form you defult laptop camera or any other camera by just passing the  image
  
  
  
-#facecut.py
+# facecut.py
 In this it cut the face and save it in same file  
 
 It do the same with whole data set
@@ -70,16 +70,19 @@ this type of image will use in dataset
 and i get this much accuracy and loss for 5 class
 
 'val_loss': [0.31096458435058594, 0.5319749712944031, 0.17712721228599548, 0.20998987555503845, 0.16552892327308655],
+
 'val_accuracy': [0.9615384340286255, 0.807692289352417, 0.9615384340286255, 0.9615384340286255, 0.9615384340286255],
+
 'loss': [1.2948014206356473, 0.4617767201529609, 0.24304395113830213, 0.11090589121535972, 0.08772868594085728],
+
 'accuracy': [0.6111111, 0.8240741, 0.8981481, 0.9583333, 0.9768519]
 
 
-#accuracy
+# accuracy
 
 <img src="exampleimg/accimage.png" >
 
-#loss
+# loss
 
 <img src="exampleimg/lossimage.png" >
 
