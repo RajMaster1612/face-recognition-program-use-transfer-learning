@@ -7,7 +7,22 @@ i use vgg16 for pretrained weights and keras has vgg16 model as object
 <img width="900" height="507" src="https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png" class="attachment-full size-full wp-post-image" alt="vgg16">
 <p>VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper “Very Deep Convolutional Networks for Large-Scale Image Recognition”.<a id="bib" href="https://arxiv.org/abs/1409.1556" rel="noopener nofollow external" data-wpel-link="external" target="_blank"></a> The model achieves 92.7% top-5 test accuracy in ImageNet,<a id="bib" href="http://image-net.org/" rel="noopener nofollow external" data-wpel-link="external" target="_blank"></a> which is a dataset of over 14 million images belonging to 1000 classes. It was one of the famous model submitted to <a href="http://www.image-net.org/challenges/LSVRC/2014/results" data-wpel-link="external" target="_blank" rel="nofollow external noopener">ILSVRC-2014</a>. It makes the improvement over AlexNet by replacing large kernel-sized filters (11 and 5 in the first and second convolutional layer, respectively) with multiple 3×3 kernel-sized filters one after another. VGG16 was trained for weeks and was using NVIDIA Titan Black GPU’s.</p>
 <img class="aligncenter size-full wp-image-5385" src="https://neurohive.io/wp-content/uploads/2018/11/vgg16.png" alt="vgg16 architecture " width="1200" height="294">
-===========================================================================================================================================
+===========================================================================================================================================  <br>  <br>
+
+# facecut.py
+after loading the image in Dataset/Train just give the path in program
+
+it will find face and crop it than save it in same file  
+
+It do the same with whole data set
+
+<img src="https://raw.githubusercontent.com/RajMaster1612/face-recognition-program-use-transfer-learning/master/exampleimage/fullimage.jpg" >
+
+
+<img src="https://raw.githubusercontent.com/RajMaster1612/face-recognition-program-use-transfer-learning/master/exampleimage/cutimage.jpg" >
+
+this type of image will use in dataset 
+
 
 # transfer_learning.py
 
@@ -48,23 +63,15 @@ model = Model(inputs=vgg.input, outputs=prediction)e</code>
   
  In prediction it give list of every class how much similer are in ther 
  
+ and in return it make a result.jpg file with prediction
+ 
+  result.jpg<br>
+<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/result.jpg" >
  
 # face_detect_live_cam.py
  
  it do same process as face_detect_img.py it but it get image form you defult laptop camera or any other camera by just passing the  image
  
- 
- 
-# facecut.py
-In this it cut the face and save it in same file  
-
-It do the same with whole data set
-<img src="https://raw.githubusercontent.com/RajMaster1612/face-recognition-program-use-transfer-learning/master/exampleimage/fullimage.jpg" >
-
-
-<img src="https://raw.githubusercontent.com/RajMaster1612/face-recognition-program-use-transfer-learning/master/exampleimage/cutimage.jpg" >
-
-this type of image will use in dataset 
 
 
 and i get this much accuracy and loss for 5 class
@@ -86,8 +93,7 @@ and i get this much accuracy and loss for 5 class
 
 <img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/lossimage.PNG" >
 
-# result
-<img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/result.jpg" >
+
 
 # live
 <img src="https://github.com/RajMaster1612/face-recognition-program-use-transfer-learning/blob/master/exampleimage/live.PNG" >
