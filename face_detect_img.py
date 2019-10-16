@@ -31,9 +31,9 @@ for i in range(len(folders)):
     
 imagenet_labels=folders
 try:
-frame=cv2.imread('obama.jpg')
-cv2.namedWindow('img', cv2.WINDOW_NORMAL)
-cv2.imshow('img',frame)
+	frame=cv2.imread('obama.jpg')
+	cv2.namedWindow('img', cv2.WINDOW_NORMAL)
+	cv2.imshow('img',frame)
 except:
     print ("image source is not avaiable")
 face=face_extractor(frame)
