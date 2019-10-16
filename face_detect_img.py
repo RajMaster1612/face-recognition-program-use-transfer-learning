@@ -55,6 +55,7 @@ if type(face) is np.ndarray:
     predicted_class_name = imagenet_labels[predicted_class]
     _ = plt.title("Prediction: " + predicted_class_name.title())
     print("Prediction: ", predicted_class_name.title())
+	cv2.putText(frame,predicted_class_name.title(),(50,50),cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
     # this is comment code is to if some has to set threshold value
 cv2.imshow('show',frame)
 cv2.imwrite('result1.jpg',frame)
